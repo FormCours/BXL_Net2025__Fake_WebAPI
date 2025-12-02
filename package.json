@@ -1,0 +1,22 @@
+{
+  "name": "fake-api",
+  "version": "0.1.0",
+  "description": "FakeAPI pour la prépa de l'UAA",
+  "license": "ISC",
+  "author": "Aurélien St",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "lowdb": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

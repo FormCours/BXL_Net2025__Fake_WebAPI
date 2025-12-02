@@ -1,0 +1,224 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Kyoto",
+      "shortDescription": "Ville japonaise empreinte de temples et traditions.",
+      "fullDescription": "Kyoto est une ancienne capitale du Japon, réputée pour ses temples bouddhistes, ses jardins zen et ses cérémonies du thé. Elle incarne l'harmonie entre modernité et traditions millénaires.",
+      "country": "Japon",
+      "estimatedBudget": {
+        "min": 1200,
+        "max": 2500
+      },
+      "imageUrl": "https://example.com/images/kyoto.jpg",
+      "slug": "kyoto-japon",
+      "travelPeriod": [
+        {
+          "start": "2025-03-01",
+          "end": "2025-05-31"
+        },
+        {
+          "start": "2025-10-01",
+          "end": "2025-11-30"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Reykjavik",
+      "shortDescription": "Capitale islandaise entourée de paysages volcaniques.",
+      "fullDescription": "Reykjavik est le point de départ idéal pour explorer les geysers, les glaciers et les aurores boréales. La ville combine culture nordique et nature sauvage.",
+      "country": "Islande",
+      "estimatedBudget": {
+        "min": 1500,
+        "max": null
+      },
+      "imageUrl": "https://example.com/images/reykjavik.jpg",
+      "slug": "reykjavik-islande",
+      "travelPeriod": [
+        {
+          "start": "2025-09-01",
+          "end": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Marrakech",
+      "shortDescription": "Ville marocaine vibrante aux souks colorés.",
+      "fullDescription": "Marrakech séduit par ses marchés animés, ses palais majestueux et ses jardins luxuriants. C'est une immersion sensorielle au cœur du Maroc.",
+      "country": "Maroc",
+      "estimatedBudget": {
+        "min": 800,
+        "max": 1800
+      },
+      "imageUrl": "https://example.com/images/marrakech.jpg",
+      "slug": "marrakech-maroc",
+      "travelPeriod": [
+        {
+          "start": "2025-02-01",
+          "end": "2025-05-31"
+        },
+        {
+          "start": "2025-09-01",
+          "end": "2025-11-30"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Santorin",
+      "shortDescription": "Île grecque aux maisons blanches et bleues.",
+      "fullDescription": "Santorin est célèbre pour ses couchers de soleil spectaculaires, ses plages volcaniques et ses villages pittoresques perchés au-dessus de la mer Égée.",
+      "country": "Grèce",
+      "estimatedBudget": {
+        "min": 1000,
+        "max": 2200
+      },
+      "imageUrl": "https://example.com/images/santorin.jpg",
+      "slug": "santorin-grece",
+      "travelPeriod": [
+        {
+          "start": "2025-05-01",
+          "end": "2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Québec",
+      "shortDescription": "Ville canadienne au charme européen.",
+      "fullDescription": "Québec est une ville fortifiée unique en Amérique du Nord, où l'histoire coloniale rencontre la modernité. Ses festivals et son atmosphère chaleureuse en font une destination incontournable.",
+      "country": "Canada",
+      "estimatedBudget": {
+        "min": 1300,
+        "max": 2600
+      },
+      "imageUrl": "https://example.com/images/quebec.jpg",
+      "slug": "quebec-canada",
+      "travelPeriod": [
+        {
+          "start": "2025-06-01",
+          "end": "2025-09-30"
+        },
+        {
+          "start": "2025-12-01",
+          "end": "2026-02-28"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Petra",
+      "shortDescription": "Cité antique taillée dans la roche.",
+      "fullDescription": "Petra, en Jordanie, est une merveille archéologique inscrite au patrimoine mondial de l'UNESCO. Ses façades monumentales sculptées dans le grès rouge fascinent les voyageurs.",
+      "country": "Jordanie",
+      "estimatedBudget": {
+        "min": 1100,
+        "max": null
+      },
+      "imageUrl": "https://example.com/images/petra.jpg",
+      "slug": "petra-jordanie",
+      "travelPeriod": [
+        {
+          "start": "2025-03-01",
+          "end": "2025-05-31"
+        },
+        {
+          "start": "2025-09-01",
+          "end": "2025-11-30"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Buenos Aires",
+      "shortDescription": "Capitale argentine, berceau du tango.",
+      "fullDescription": "Buenos Aires est une métropole vibrante, réputée pour sa vie nocturne, ses cafés historiques et son ambiance artistique. Elle incarne l'esprit latino-américain.",
+      "country": "Argentine",
+      "estimatedBudget": {
+        "min": 900,
+        "max": 2000
+      },
+      "imageUrl": "https://example.com/images/buenosaires.jpg",
+      "slug": "buenos-aires-argentine",
+      "travelPeriod": [
+        {
+          "start": "2025-03-01",
+          "end": "2025-06-30"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Hanoï",
+      "shortDescription": "Capitale vietnamienne aux mille saveurs.",
+      "fullDescription": "Hanoï est une ville animée où se mêlent marchés de rue, architecture coloniale et traditions vietnamiennes. C'est une porte d'entrée vers la baie d'Halong.",
+      "country": "Vietnam",
+      "estimatedBudget": {
+        "min": 700,
+        "max": 1600
+      },
+      "imageUrl": "https://example.com/images/hanoi.jpg",
+      "slug": "hanoi-vietnam",
+      "travelPeriod": [
+        {
+          "start": "2025-10-01",
+          "end": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Le Cap",
+      "shortDescription": "Ville sud-africaine entre mer et montagne.",
+      "fullDescription": "Le Cap est une destination spectaculaire, dominée par la montagne de la Table et bordée par l'océan Atlantique. Sa diversité culturelle et naturelle attire les voyageurs du monde entier.",
+      "country": "Afrique du Sud",
+      "estimatedBudget": {
+        "min": 1000,
+        "max": 2300
+      },
+      "imageUrl": "https://example.com/images/lecap.jpg",
+      "slug": "le-cap-afrique-du-sud",
+      "travelPeriod": [
+        {
+          "start": "2025-11-01",
+          "end": "2026-02-28"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cusco",
+      "shortDescription": "Ancienne capitale inca au Pérou.",
+      "fullDescription": "Cusco est une ville historique perchée dans les Andes, point de départ vers le Machu Picchu. Ses ruelles pavées et ses vestiges incas racontent une histoire fascinante.",
+      "country": "Pérou",
+      "estimatedBudget": {
+        "min": 950,
+        "max": 2100
+      },
+      "imageUrl": "https://example.com/images/cusco.jpg",
+      "slug": "cusco-perou",
+      "travelPeriod": [
+        {
+          "start": "2025-05-01",
+          "end": "2025-09-30"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "destinationId": 1,
+      "author": "Della Duck",
+      "message": "C'est trop bien le japon !"
+    },
+    {
+      "id": 2,
+      "destinationId": 1,
+      "author": "Béatrice",
+      "message": "J'arrive !"
+    }
+  ]
+}
