@@ -10,7 +10,7 @@
         "min": 1200,
         "max": 2500
       },
-      "imageUrl": "https://example.com/images/kyoto.jpg",
+      "imageUrl": "/public/Kyoto.jpg",
       "slug": "kyoto-japon",
       "travelPeriod": [
         {
@@ -33,7 +33,7 @@
         "min": 1500,
         "max": null
       },
-      "imageUrl": "https://example.com/images/reykjavik.jpg",
+      "imageUrl": "/public/Reykjavik.jpg",
       "slug": "reykjavik-islande",
       "travelPeriod": [
         {
@@ -52,7 +52,7 @@
         "min": 800,
         "max": 1800
       },
-      "imageUrl": "https://example.com/images/marrakech.jpg",
+      "imageUrl": "/public/Marrakech.jpg",
       "slug": "marrakech-maroc",
       "travelPeriod": [
         {
@@ -75,7 +75,7 @@
         "min": 1000,
         "max": 2200
       },
-      "imageUrl": "https://example.com/images/santorin.jpg",
+      "imageUrl": "/public/Santorin.jpg",
       "slug": "santorin-grece",
       "travelPeriod": [
         {
@@ -94,7 +94,7 @@
         "min": 1300,
         "max": 2600
       },
-      "imageUrl": "https://example.com/images/quebec.jpg",
+      "imageUrl": "/public/Québec.jpg",
       "slug": "quebec-canada",
       "travelPeriod": [
         {
@@ -117,7 +117,7 @@
         "min": 1100,
         "max": null
       },
-      "imageUrl": "https://example.com/images/petra.jpg",
+      "imageUrl": "/public/Petra.jpg",
       "slug": "petra-jordanie",
       "travelPeriod": [
         {
@@ -140,7 +140,7 @@
         "min": 900,
         "max": 2000
       },
-      "imageUrl": "https://example.com/images/buenosaires.jpg",
+      "imageUrl": "/public/Buenos_Aires.jpg",
       "slug": "buenos-aires-argentine",
       "travelPeriod": [
         {
@@ -159,7 +159,7 @@
         "min": 700,
         "max": 1600
       },
-      "imageUrl": "https://example.com/images/hanoi.jpg",
+      "imageUrl": "/public/Hanoï.jpg",
       "slug": "hanoi-vietnam",
       "travelPeriod": [
         {
@@ -178,7 +178,7 @@
         "min": 1000,
         "max": 2300
       },
-      "imageUrl": "https://example.com/images/lecap.jpg",
+      "imageUrl": "/public/Le_Cap.jpg",
       "slug": "le-cap-afrique-du-sud",
       "travelPeriod": [
         {
@@ -197,7 +197,7 @@
         "min": 950,
         "max": 2100
       },
-      "imageUrl": "https://example.com/images/cusco.jpg",
+      "imageUrl": "/public/Cusco.jpg",
       "slug": "cusco-perou",
       "travelPeriod": [
         {

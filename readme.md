@@ -61,7 +61,7 @@ Permet d'obtenir les détails d'une destination par son id.
 		"min": 1200,
 		"max": 2500
 	},
-	"imageUrl": "https://example.com/images/kyoto.jpg",
+	"imageUrl": "/public/Kyoto.jpg",
 	"slug": "kyoto-japon",
 	"travelPeriod": [
 		{
