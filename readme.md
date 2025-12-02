@@ -10,14 +10,22 @@ Cela lancera une WebAPI sur le port 8080 de votre machine.
 
 ## Routes disponible
 
-### (GET) /api/destination/
+### (GET) /api/destination
 Permet d'obtenir la liste des destinations.
 
-Parametre « Query » :
- - limit (number) : Nombre d'élément renvoyer (par defaut 5)
- - offset (number) : Nombre d'élément ignoré (par defaut 0)
+### Parametre dans l'url (query parameter) :
+```
+limit (number) : Nombre d'élément renvoyer (par defaut 5)  
+offset (number) : Nombre d'élément ignoré (par defaut 0)
+```
 
-Exemple de réponse : 
+Exemple : 
+- Les dix premieres destinations  
+  `/api/destination?limit=10`
+- Cinq destinations en passant les 5 premieres  
+  `/api/destination?offset=5&limit=5`
+
+### Exemple de réponse : 
 ```json
 [
 	{
@@ -41,7 +49,7 @@ Exemple de réponse :
 ### (GET) /api/destination/:id
 Permet d'obtenir les détails d'une destination par son id.
 
-Exemple de réponse : 
+#### Exemple de réponse : 
 ```json
 {
 	"id": 1,
@@ -71,7 +79,7 @@ Exemple de réponse :
 ### (GET) /api/destination/:id/comments
 Permet d'obtenir les commentaires d'une destination.
 
-Exemple de réponse : 
+#### Exemple de réponse : 
 ```json
 [
 	{
@@ -87,7 +95,7 @@ Exemple de réponse :
 ### (POST) /api/destination/:id/comments
 Permet d'envoyer un commentaire pour une destination.
 
-Donnée à envoyer
+#### Donnée à envoyer
 ```json
 {
     "destinationId": 7,
@@ -96,7 +104,7 @@ Donnée à envoyer
 }
 ```
 
-Exemple de réponse : 
+#### Exemple de réponse : 
 ```json
 {
     "id": 5,

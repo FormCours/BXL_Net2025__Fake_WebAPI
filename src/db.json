@@ -213,12 +213,6 @@
       "destinationId": 1,
       "author": "Della Duck",
       "message": "C'est trop bien le japon !"
-    },
-    {
-      "id": 2,
-      "destinationId": 1,
-      "author": "Béatrice",
-      "message": "J'arrive !"
     }
   ]
 }
