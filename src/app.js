@@ -19,6 +19,7 @@ app.get('/api/destination', async (req, res) => {
 
     const offset = !isNaN(req.query.offset) ? parseInt(req.query.offset) : 0;
     const limit = !isNaN(req.query.limit) ? parseInt(req.query.limit) : 5;
+    const nbDestination = db.data.destinations.length;
 
     const destinations = db.data.destinations.slice(offset, offset + limit).map(dest => ({
         id: dest.id,
@@ -27,13 +28,14 @@ app.get('/api/destination', async (req, res) => {
         country: dest.country,
         slug: dest.slug
     }));
-    res.json(destinations);
+
+    res.header({ 'X-Total-Count' : nbDestination }).json(destinations);
 });
 
 app.get('/api/destination/:id', async (req, res) => {
     const destId = parseInt(req.params.id);
     if (isNaN(destId)) {
-        res.statusCode(400).json({ error: 'Bad destination Id !' });
+        res.status(400).json({ error: 'Bad destination Id !' });
         return;
     }
 
@@ -50,7 +52,7 @@ app.get('/api/destination/:id/comments', async (req, res) => {
     const destId = parseInt(req.params.id);
 
     if (isNaN(destId) && !db.data.destinations.find(dest => dest.id === id)) {
-        res.statusCode(400).json({ error: 'Bad destination Id !' });
+        res.status(400).json({ error: 'Bad destination Id !' });
         return;
     }
 
@@ -62,7 +64,7 @@ app.post('/api/destination/:id/comments', async (req, res) => {
     const destId = parseInt(req.params.id);
 
     if (isNaN(destId) && !db.data.destinations.find(dest => dest.id === id)) {
-        res.statusCode(400).json({ error: 'Bad destination Id !' });
+        res.status(400).json({ error: 'Bad destination Id !' });
         return;
     }
 

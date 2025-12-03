@@ -42,6 +42,7 @@ Exemple :
 	}
 ]
 ```
+Le nombre d'elements total est référencé dans le champs `X-Total-Count` dans l'en-tête de la réponse. 
 
 ### (GET) /api/destination/:id
 Permet d'obtenir les détails d'une destination par son id.
