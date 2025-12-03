@@ -2,13 +2,13 @@
 Réaliser une application React SPA pour une site de voyage
 
 ## Page du site
-- **Page d'accueil**
+- **Page d'accueil**  
   Contenu : Titre, phrase d'accroche et une image
-- **Page des destinations**
+- **Page des destinations**  
   Contenu : Les destinations sous la forme d'une liste clicable
-- **Page détail d'une destionation**
-  Contenu : Les informations de la destinations avec son image.
-  Une zone commentaire doit être prévu (lecture et envoi)
+- **Page détail d'une destionation**  
+  Contenu : Les informations de la destinations avec son image.  
+  La page de la destination doit permettre à l'utilisateur d'envoyer un commentaire.
 
 ## Contraintes
 - Les données doivent être consommé depuis une WebAPI (fourni).
