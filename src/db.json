@@ -11,7 +11,6 @@
         "max": 2500
       },
       "imageUrl": "/public/Kyoto.jpg",
-      "slug": "kyoto-japon",
       "travelPeriod": [
         {
           "start": "2025-03-01",
@@ -34,7 +33,6 @@
         "max": null
       },
       "imageUrl": "/public/Reykjavik.jpg",
-      "slug": "reykjavik-islande",
       "travelPeriod": [
         {
           "start": "2025-09-01",
@@ -53,7 +51,6 @@
         "max": 1800
       },
       "imageUrl": "/public/Marrakech.jpg",
-      "slug": "marrakech-maroc",
       "travelPeriod": [
         {
           "start": "2025-02-01",
@@ -76,7 +73,6 @@
         "max": 2200
       },
       "imageUrl": "/public/Santorin.jpg",
-      "slug": "santorin-grece",
       "travelPeriod": [
         {
           "start": "2025-05-01",
@@ -95,7 +91,6 @@
         "max": 2600
       },
       "imageUrl": "/public/Québec.jpg",
-      "slug": "quebec-canada",
       "travelPeriod": [
         {
           "start": "2025-06-01",
@@ -118,7 +113,6 @@
         "max": null
       },
       "imageUrl": "/public/Petra.jpg",
-      "slug": "petra-jordanie",
       "travelPeriod": [
         {
           "start": "2025-03-01",
@@ -141,7 +135,6 @@
         "max": 2000
       },
       "imageUrl": "/public/Buenos_Aires.jpg",
-      "slug": "buenos-aires-argentine",
       "travelPeriod": [
         {
           "start": "2025-03-01",
@@ -160,7 +153,6 @@
         "max": 1600
       },
       "imageUrl": "/public/Hanoï.jpg",
-      "slug": "hanoi-vietnam",
       "travelPeriod": [
         {
           "start": "2025-10-01",
@@ -179,7 +171,6 @@
         "max": 2300
       },
       "imageUrl": "/public/Le_Cap.jpg",
-      "slug": "le-cap-afrique-du-sud",
       "travelPeriod": [
         {
           "start": "2025-11-01",
@@ -198,7 +189,6 @@
         "max": 2100
       },
       "imageUrl": "/public/Cusco.jpg",
-      "slug": "cusco-perou",
       "travelPeriod": [
         {
           "start": "2025-05-01",

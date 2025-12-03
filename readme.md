@@ -32,17 +32,14 @@ Exemple :
 		"id": 1,
 		"name": "Kyoto",
 		"shortDescription": "Ville japonaise empreinte de temples et traditions.",
-		"country": "Japon",
-		"slug": "kyoto-japon"
+		"country": "Japon"
 	},
 	{
 		"id": 2,
 		"name": "Reykjavik",
 		"shortDescription": "Capitale islandaise entourée de paysages volcaniques.",
-		"country": "Islande",
-		"slug": "reykjavik-islande"
-	},
-    ...
+		"country": "Islande"
+	}
 ]
 ```
 
@@ -62,7 +59,6 @@ Permet d'obtenir les détails d'une destination par son id.
 		"max": 2500
 	},
 	"imageUrl": "/public/Kyoto.jpg",
-	"slug": "kyoto-japon",
 	"travelPeriod": [
 		{
 			"start": "2025-03-01",
@@ -87,8 +83,7 @@ Permet d'obtenir les commentaires d'une destination.
 		"destinationId": 1,
 		"author": "Della Duck",
 		"message": "C'est trop bien le japon !"
-	},
-	...
+	}
 ]
 ```
 
