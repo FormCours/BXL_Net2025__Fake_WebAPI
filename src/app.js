@@ -51,7 +51,7 @@ app.get('/api/destination/:id', async (req, res) => {
 app.get('/api/destination/:id/comments', async (req, res) => {
     const destId = parseInt(req.params.id);
 
-    if (isNaN(destId) && !db.data.destinations.find(dest => dest.id === id)) {
+    if (isNaN(destId) || !db.data.destinations.find(dest => dest.id === destId)) {
         res.status(400).json({ error: 'Bad destination Id !' });
         return;
     }
@@ -63,7 +63,7 @@ app.get('/api/destination/:id/comments', async (req, res) => {
 app.post('/api/destination/:id/comments', async (req, res) => {
     const destId = parseInt(req.params.id);
 
-    if (isNaN(destId) && !db.data.destinations.find(dest => dest.id === id)) {
+    if (isNaN(destId) || !db.data.destinations.find(dest => dest.id === destId)) {
         res.status(400).json({ error: 'Bad destination Id !' });
         return;
     }

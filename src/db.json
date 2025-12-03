@@ -202,7 +202,121 @@
       "id": 1,
       "destinationId": 1,
       "author": "Della Duck",
-      "message": "C'est trop bien le japon !"
+      "message": "C'est trop bien le Japon ! Kyoto est magique avec ses temples."
+    },
+    {
+      "id": 2,
+      "destinationId": 2,
+      "author": "Jean Dupont",
+      "message": "Reykjavik... bof, trop froid pour moi, je préfère le soleil."
+    },
+    {
+      "id": 3,
+      "destinationId": 4,
+      "author": "Fatima Lefèvre",
+      "message": "Marrakech est incroyable, les couleurs et les odeurs des souks sont inoubliables."
+    },
+    {
+      "id": 4,
+      "destinationId": 5,
+      "author": "Nicolas Martin",
+      "message": "Santorin est joli mais trop touristique, ça gâche un peu l'ambiance."
+    },
+    {
+      "id": 5,
+      "destinationId": 7,
+      "author": "Marie Tremblay",
+      "message": "Québec en hiver est féérique, j'adore le carnaval et l'ambiance chaleureuse."
+    },
+    {
+      "id": 6,
+      "destinationId": 4,
+      "author": "Omar Bernard",
+      "message": "Marrakech est impressionnante, mais il fait vraiment trop chaud pour profiter pleinement."
+    },
+    {
+      "id": 7,
+      "destinationId": 10,
+      "author": "Carlos Dubois",
+      "message": "Buenos Aires est une ville vivante, le tango dans les rues c'est magique."
+    },
+    {
+      "id": 8,
+      "destinationId": 11,
+      "author": "Linh Nguyen",
+      "message": "Hanoï est bruyante et chaotique, mais la nourriture est délicieuse."
+    },
+    {
+      "id": 9,
+      "destinationId": 13,
+      "author": "Sophie Durand",
+      "message": "Le Cap est spectaculaire, entre mer et montagne, je n'ai jamais vu ça ailleurs."
+    },
+    {
+      "id": 10,
+      "destinationId": 1,
+      "author": "Camille Rousseau",
+      "message": "🌸✨ Kyoto est absolument EXTRAORDINAIRE !!! 😍 Je ne sais même pas par où commencer tellement j’ai adoré : les temples sont sublimes 🏯, les jardins zen m’ont apporté une sérénité incroyable 🍃, les cérémonies du thé étaient une expérience culturelle unique 🍵, et même les petites ruelles m’ont émerveillé 🏮. J’ai pris des centaines de photos 📸, goûté à des plats délicieux 🍣, rencontré des habitants adorables 🤝… Franchement, je pourrais écrire un livre entier 📖 sur ce voyage tellement chaque instant était parfait et mémorable 💖🌏🔥 !!!"
+    },
+    {
+      "id": 11,
+      "destinationId": 15,
+      "author": "Diego Morel",
+      "message": "Cusco est fascinante, mais l'altitude m'a donné mal à la tête."
+    },
+    {
+      "id": 12,
+      "destinationId": 5,
+      "author": "Lucie Petit",
+      "message": "Santorin... les couchers de soleil sont beaux, mais après deux jours on a fait le tour."
+    },
+    {
+      "id": 13,
+      "destinationId": 2,
+      "author": "Björn Duck",
+      "message": "Reykjavik est parfaite pour voir les aurores boréales, expérience unique !"
+    },
+    {
+      "id": 14,
+      "destinationId": 7,
+      "author": "Thomas Leroy",
+      "message": "Québec est sympa, mais je trouve que c'est cher pour ce que c'est."
+    },
+    {
+      "id": 15,
+      "destinationId": 1,
+      "author": "Aya Dubreuil",
+      "message": "Kyoto est paisible, les jardins zen sont un vrai havre de paix."
+    },
+    {
+      "id": 16,
+      "destinationId": 15,
+      "author": "Santiago Bernard",
+      "message": "Très nul."
+    },
+    {
+      "id": 17,
+      "destinationId": 10,
+      "author": "Julien Moreau",
+      "message": "Impressionnant! Mais j'aurais aimé plus d'infrastructures touristiques."
+    },
+    {
+      "id": 18,
+      "destinationId": 13,
+      "author": "Claire Fontaine",
+      "message": "Le Cap est magnifique, mais j'ai trouvé la ville un peu dangereuse."
+    },
+    {
+      "id": 19,
+      "destinationId": 11,
+      "author": "Bao Nguyen",
+      "message": "Hanoï est une ville pleine de vie, mais la circulation est infernale."
+    },
+    {
+      "id": 20,
+      "destinationId": 10,
+      "author": "Martina Blanc",
+      "message": "Buenos Aires... trop de monde, trop de bruit, je n'ai pas accroché."
     }
   ]
 }
